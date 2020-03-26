@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+*{box-sizing: border-box}
+
+
+h1{
+	font-family: 'Dancing Script' ;
+	font-size: 10em;
+}
+header {
+	background-image:url("images/header_bkg.png");
+	margin-top: 20px;
+	width: 960px;
+	height: 200px;
+	border-radius: 20px;
+	text-align:center;
+	color: #E9D0F4;
+text-shadow: 3px 3px rgba(196 196 196 50)
+}
+
+body {
+	margin:auto;
+	width: 960px;
+background-image: url("images/dot.png");
+
+}
+
+.container {
+	width:1000px;
+	height:575px;
+	margin:0 auto;
+}
+
+#topBox{
+	width:100%;
+	height:150px;
+	background-color:lightskyblue
+}
+
+#alignRight{
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-right: 10px;
+	padding: 10px;
+	background-color: lightgreen;
+	float: left;
+	height: 300px;
+	width: 750px;
+}
+
+#alignLeft{
+	margin-right:10px;
+	margin-top: 10px;
+	margin-left: 10px;
+	padding: 10px;
+	background-color: salmon;
+	float: left;
+	height: 350px;
+	width: 160px;
+}
+
+
+footer{
+	
+			background-color:mediumpurple; 
+			width:100%; 
+          height:30px;
+	clear:both;
+}
